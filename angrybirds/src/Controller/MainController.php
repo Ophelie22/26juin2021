@@ -15,7 +15,8 @@ class MainController extends AbstractController
     public function birdList(): Response
     {
         return $this->render('main/index.html.twig', [
-            'controller_name' => 'MainController',
+            'controller_name' => 'MainController', // on voit que la variable controller name est directement 
+            //reportee  a notre temlate ligne 12
         ]);
     }
 }
