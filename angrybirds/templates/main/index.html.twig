@@ -10,6 +10,8 @@
 
 <div class="row">
     {# On boucle sur la liste des oiseaux pour tous les afficher #}
+{# {{ dump(birds)}}  cela m'indique bien le dump du tableau#}
+{{ dump(birds[3]['description']) }} 
     {% for bird in birds %}
         <div class="col-4">
             <div class="card border-primary mb-3">
