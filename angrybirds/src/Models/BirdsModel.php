@@ -42,10 +42,9 @@ class BirdsModels
             ],
         ];
     
-        public function getBirds()
-        {
-            return $this->birds;
+        //public function getBirds()
+        //{
+          //  return $this->birds;
         }
-} 
 
 
