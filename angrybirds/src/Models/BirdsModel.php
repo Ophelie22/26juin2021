@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-class BirdsModel 
+class BirdsModel
 {
     private $birds = [
         [
@@ -45,5 +45,13 @@ class BirdsModel
     public function getBirds()
     {
         return $this->birds;
+    }
+/**
+ * retourne un seul oiseu du tableau en fction de son indes
+ * 
+ */
+    public function getSingleBird($index)
+    {
+        return $this->birds[$index];
     }
 }
